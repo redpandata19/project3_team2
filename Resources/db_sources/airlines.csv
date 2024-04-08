@@ -1,0 +1,22 @@
+iata_code,airline_name,type
+ZW,Air Wisconsin Airlines,codesharing
+AS,Alaska Airlines,marketing
+G4,Allegiant Air,marketing
+AA,American Airlines,marketing
+C5,CommuteAir,codesharing
+DL,Delta Airlines,marketing
+9E,Endeavor Air,codesharing
+MQ,Envoy Air,codesharing
+F9,Frontier Airlines,marketing
+G7,GoJet Airlines,codesharing
+HA,Hawaiian Airlines,marketing
+QX,Horizon Air Industries,codesharing
+B6,JetBlue,marketing
+YV,Mesa Airlines,codesharing
+OH,PSA Airlines,codesharing
+PT,Piedmont Airlines,codesharing
+YX,Republic Airways,codesharing
+OO,SkyWest Airlines,codesharing
+WN,Southwest Airlines,marketing
+NK,Spirit Airlines,marketing
+UA,United Airlines,marketing
