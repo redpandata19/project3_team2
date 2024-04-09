@@ -12,6 +12,7 @@ differentiating factors.
 ### File Structure
 
 ### Visuals
+https://redpandata19.github.io/project3_team2/
 Depending on what you are making, it can be a good idea to include 
 screenshots or even a video (you'll frequently see GIFs rather than 
 actual videos). Tools like ttygif can help, but check out Asciinema for a 
@@ -42,14 +43,8 @@ redpandata19 (Elaine McCall)<br>
 Latashajd40 (Latasha J)<br>
 rachelnteran (Rachel Teran)<br>
 HardmanT (Tammy Hardman)<br>
-
-### Roadmap
-If you have ideas for releases in the future, it is a good idea to list 
-them in the README.
-### Contributing
-State if you are open to contributions and what your requirements are for 
-accepting them.
 ## Sources
 US Airports: https://www.oag.com/flight-data-sets <br>
 Images: https://pixabay.com/images/search/airplane/ <br>
+Flight Data: https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr
 # project3_team2
