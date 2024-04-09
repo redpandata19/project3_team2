@@ -2,7 +2,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE size_type (
+CREATE TABLE airport_sizes (
     size_id int   NOT NULL,
     relative_size VARCHAR(6)   NOT NULL,
     CONSTRAINT pk_size_type PRIMARY KEY (
