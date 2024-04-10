@@ -1,6 +1,4 @@
 # Import dependencies
-import numpy as np
-
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -9,9 +7,7 @@ from sqlalchemy import create_engine, func
 
 from flask import Flask, jsonify
 
-import matplotlib.pyplot as plt
-
-import psycopg2
+from flask_cors import CORS
 
 
 
@@ -36,7 +32,7 @@ flights = Base.classes.flights
 # Flask Setup
 #################################################
 app = Flask(__name__)
-
+CORS(app)
 #################################################
 # Flask Routes
 #################################################
@@ -61,24 +57,8 @@ def state_airports():
     
     # sort states per airport count
     sorted_state_airports = sorted(state_airports, key=lambda x: x[1])
+ 
+    return jsonify(sorted_state_airports)
 
-    # extract state abbreviations and airport counts
-    states = [result[0] for result in sorted_state_airports]  
-    counts = [result[1] for result in sorted_state_airports]
-
- # Create a horizontal bar chart
-plt.figure(figsize=(10, 8))  
-plt.barh(states, counts, color='green') 
-
-# create the bar chart and label the axis and title
-plt.xlabel('Number of Airports') 
-plt.ylabel('State') 
-plt.title('Number of Airports by State') 
-plt.tight_layout() 
-# Export chart image
-plt.savefig('images/airports_by_state.png', dpi=300)  
-# Display the chart
-plt.show()
-
-
-
+if __name__ == "__main__":
+    app.run()
