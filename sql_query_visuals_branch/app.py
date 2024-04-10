@@ -1,4 +1,5 @@
 # Import dependencies
+import pandas as pd
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -57,8 +58,15 @@ def state_airports():
     
     # sort states per airport count
     sorted_state_airports = sorted(state_airports, key=lambda x: x[1])
+    # extract state abbreviations and airport counts
+    states = [result[0] for result in sorted_state_airports]  
+    counts = [result[1] for result in sorted_state_airports]
+    # convert to dataframe
+    state_airports_df = pd.DataFrame({"state":states,
+                                    "count":counts})
+    state_airports_json = state_airports_df.to_json(orient='records')
  
-    return jsonify(sorted_state_airports)
+    return jsonify(state_airports_json)
 
 if __name__ == "__main__":
     app.run()
