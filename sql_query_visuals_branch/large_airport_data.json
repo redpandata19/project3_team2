@@ -1,0 +1,404 @@
+{
+    "0": {
+        "iata_code": "LAX",
+        "name": "Los Angeles International Airport",
+        "lat": 33.942501,
+        "long": -118.407997
+    },
+    "1": {
+        "iata_code": "ORD",
+        "name": "Chicago O'Hare International Airport",
+        "lat": 41.9786,
+        "long": -87.9048
+    },
+    "2": {
+        "iata_code": "JFK",
+        "name": "John F Kennedy International Airport",
+        "lat": 40.639447,
+        "long": -73.779317
+    },
+    "3": {
+        "iata_code": "ATL",
+        "name": "Hartsfield Jackson Atlanta International Airport",
+        "lat": 33.6367,
+        "long": -84.428101
+    },
+    "4": {
+        "iata_code": "SFO",
+        "name": "San Francisco International Airport",
+        "lat": 37.61899948,
+        "long": -122.375
+    },
+    "5": {
+        "iata_code": "EWR",
+        "name": "Newark Liberty International Airport",
+        "lat": 40.692501,
+        "long": -74.168701
+    },
+    "6": {
+        "iata_code": "DFW",
+        "name": "Dallas Fort Worth International Airport",
+        "lat": 32.896801,
+        "long": -97.038002
+    },
+    "7": {
+        "iata_code": "LAS",
+        "name": "Harry Reid International Airport",
+        "lat": 36.083361,
+        "long": -115.151817
+    },
+    "8": {
+        "iata_code": "MCO",
+        "name": "Orlando International Airport",
+        "lat": 28.42939949,
+        "long": -81.30899811
+    },
+    "9": {
+        "iata_code": "DEN",
+        "name": "Denver International Airport",
+        "lat": 39.86169815,
+        "long": -104.6729965
+    },
+    "10": {
+        "iata_code": "LGA",
+        "name": "La Guardia Airport",
+        "lat": 40.777199,
+        "long": -73.872597
+    },
+    "11": {
+        "iata_code": "IAD",
+        "name": "Washington Dulles International Airport",
+        "lat": 38.9445,
+        "long": -77.455803
+    },
+    "12": {
+        "iata_code": "MIA",
+        "name": "Miami International Airport",
+        "lat": 25.79319954,
+        "long": -80.29060364
+    },
+    "13": {
+        "iata_code": "PHX",
+        "name": "Phoenix Sky Harbor International Airport",
+        "lat": 33.435302,
+        "long": -112.005905
+    },
+    "14": {
+        "iata_code": "SEA",
+        "name": "Seattle\u2013Tacoma International Airport",
+        "lat": 47.449162,
+        "long": -122.311134
+    },
+    "15": {
+        "iata_code": "BOS",
+        "name": "Logan International Airport",
+        "lat": 42.3643,
+        "long": -71.005203
+    },
+    "16": {
+        "iata_code": "PHL",
+        "name": "Philadelphia International Airport",
+        "lat": 39.87189865,
+        "long": -75.2410965
+    },
+    "17": {
+        "iata_code": "CLT",
+        "name": "Charlotte Douglas International Airport",
+        "lat": 35.2140007,
+        "long": -80.94309998
+    },
+    "18": {
+        "iata_code": "IAH",
+        "name": "George Bush Intercontinental Houston Airport",
+        "lat": 29.9843998,
+        "long": -95.34140015
+    },
+    "19": {
+        "iata_code": "DCA",
+        "name": "Ronald Reagan Washington National Airport",
+        "lat": 38.8521,
+        "long": -77.037697
+    },
+    "20": {
+        "iata_code": "DTW",
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "lat": 42.21239853,
+        "long": -83.35340118
+    },
+    "21": {
+        "iata_code": "MSP",
+        "name": "Minneapolis\u2013Saint Paul International Airport / Wold\u2013Chamberlain Field",
+        "lat": 44.882,
+        "long": -93.221802
+    },
+    "22": {
+        "iata_code": "FLL",
+        "name": "Fort Lauderdale Hollywood International Airport",
+        "lat": 26.072599,
+        "long": -80.152702
+    },
+    "23": {
+        "iata_code": "SLC",
+        "name": "Salt Lake City International Airport",
+        "lat": 40.785749,
+        "long": -111.979746
+    },
+    "24": {
+        "iata_code": "MDW",
+        "name": "Chicago Midway International Airport",
+        "lat": 41.785999,
+        "long": -87.752403
+    },
+    "25": {
+        "iata_code": "BWI",
+        "name": "Baltimore/Washington International Thurgood Marshall Airport",
+        "lat": 39.1754,
+        "long": -76.668297
+    },
+    "26": {
+        "iata_code": "SAN",
+        "name": "San Diego International Airport",
+        "lat": 32.73360062,
+        "long": -117.1900024
+    },
+    "27": {
+        "iata_code": "STL",
+        "name": "St Louis Lambert International Airport",
+        "lat": 38.748697,
+        "long": -90.370003
+    },
+    "28": {
+        "iata_code": "HNL",
+        "name": "Daniel K Inouye International Airport",
+        "lat": 21.32062,
+        "long": -157.924228
+    },
+    "29": {
+        "iata_code": "PDX",
+        "name": "Portland International Airport",
+        "lat": 45.58869934,
+        "long": -122.5979996
+    },
+    "30": {
+        "iata_code": "MSY",
+        "name": "Louis Armstrong New Orleans International Airport",
+        "lat": 29.99340057,
+        "long": -90.25800323
+    },
+    "31": {
+        "iata_code": "TPA",
+        "name": "Tampa International Airport",
+        "lat": 27.97550011,
+        "long": -82.53320313
+    },
+    "32": {
+        "iata_code": "BNA",
+        "name": "Nashville International Airport",
+        "lat": 36.12450027,
+        "long": -86.67819977
+    },
+    "33": {
+        "iata_code": "CVG",
+        "name": "Cincinnati Northern Kentucky International Airport",
+        "lat": 39.048801,
+        "long": -84.667801
+    },
+    "34": {
+        "iata_code": "AUS",
+        "name": "Austin Bergstrom International Airport",
+        "lat": 30.197535,
+        "long": -97.662015
+    },
+    "35": {
+        "iata_code": "RDU",
+        "name": "Raleigh Durham International Airport",
+        "lat": 35.877602,
+        "long": -78.787498
+    },
+    "36": {
+        "iata_code": "PIT",
+        "name": "Pittsburgh International Airport",
+        "lat": 40.49150085,
+        "long": -80.23290253
+    },
+    "37": {
+        "iata_code": "SJC",
+        "name": "Norman Y. Mineta San Jose International Airport",
+        "lat": 37.362452,
+        "long": -121.929188
+    },
+    "38": {
+        "iata_code": "MCI",
+        "name": "Kansas City International Airport",
+        "lat": 39.2976,
+        "long": -94.713898
+    },
+    "39": {
+        "iata_code": "OAK",
+        "name": "Metropolitan Oakland International Airport",
+        "lat": 37.721298,
+        "long": -122.221001
+    },
+    "40": {
+        "iata_code": "SAT",
+        "name": "San Antonio International Airport",
+        "lat": 29.533701,
+        "long": -98.469803
+    },
+    "41": {
+        "iata_code": "SNA",
+        "name": "John Wayne Orange County International Airport",
+        "lat": 33.675701,
+        "long": -117.867996
+    },
+    "42": {
+        "iata_code": "MEM",
+        "name": "Memphis International Airport",
+        "lat": 35.04240036,
+        "long": -89.97669983
+    },
+    "43": {
+        "iata_code": "CLE",
+        "name": "Cleveland Hopkins International Airport",
+        "lat": 41.411701,
+        "long": -81.8498
+    },
+    "44": {
+        "iata_code": "IND",
+        "name": "Indianapolis International Airport",
+        "lat": 39.7173,
+        "long": -86.294403
+    },
+    "45": {
+        "iata_code": "CMH",
+        "name": "John Glenn Columbus International Airport",
+        "lat": 39.998001,
+        "long": -82.891899
+    },
+    "46": {
+        "iata_code": "MKE",
+        "name": "General Mitchell International Airport",
+        "lat": 42.94720078,
+        "long": -87.89659882
+    },
+    "47": {
+        "iata_code": "JAX",
+        "name": "Jacksonville International Airport",
+        "lat": 30.49410057,
+        "long": -81.68789673
+    },
+    "48": {
+        "iata_code": "BUF",
+        "name": "Buffalo Niagara International Airport",
+        "lat": 42.94049835,
+        "long": -78.73220062
+    },
+    "49": {
+        "iata_code": "ANC",
+        "name": "Ted Stevens Anchorage International Airport",
+        "lat": 61.1744,
+        "long": -149.996002
+    },
+    "50": {
+        "iata_code": "SMF",
+        "name": "Sacramento International Airport",
+        "lat": 38.69540024,
+        "long": -121.5910034
+    },
+    "51": {
+        "iata_code": "PBI",
+        "name": "Palm Beach International Airport",
+        "lat": 26.68320084,
+        "long": -80.09559631
+    },
+    "52": {
+        "iata_code": "OMA",
+        "name": "Eppley Airfield",
+        "lat": 41.3032,
+        "long": -95.894096
+    },
+    "53": {
+        "iata_code": "PVD",
+        "name": "Theodore Francis Green State Airport",
+        "lat": 41.725038,
+        "long": -71.425668
+    },
+    "54": {
+        "iata_code": "SDF",
+        "name": "Louisville Muhammad Ali International Airport",
+        "lat": 38.1744,
+        "long": -85.736
+    },
+    "55": {
+        "iata_code": "RNO",
+        "name": "Reno Tahoe International Airport",
+        "lat": 39.49909973,
+        "long": -119.7679977
+    },
+    "56": {
+        "iata_code": "RSW",
+        "name": "Southwest Florida International Airport",
+        "lat": 26.53619957,
+        "long": -81.75520325
+    },
+    "57": {
+        "iata_code": "RIC",
+        "name": "Richmond International Airport",
+        "lat": 37.50519943,
+        "long": -77.31970215
+    },
+    "58": {
+        "iata_code": "SAV",
+        "name": "Savannah Hilton Head International Airport",
+        "lat": 32.12760162,
+        "long": -81.20210266
+    },
+    "59": {
+        "iata_code": "ONT",
+        "name": "Ontario International Airport",
+        "lat": 34.05599976,
+        "long": -117.6009979
+    },
+    "60": {
+        "iata_code": "SYR",
+        "name": "Syracuse Hancock International Airport",
+        "lat": 43.11119843,
+        "long": -76.10630035
+    },
+    "61": {
+        "iata_code": "PWM",
+        "name": "Portland International Jetport",
+        "lat": 43.646198,
+        "long": -70.309303
+    },
+    "62": {
+        "iata_code": "TUL",
+        "name": "Tulsa International Airport",
+        "lat": 36.19839859,
+        "long": -95.88809967
+    },
+    "63": {
+        "iata_code": "SFB",
+        "name": "Orlando Sanford International Airport",
+        "lat": 28.77759933,
+        "long": -81.23750305
+    },
+    "64": {
+        "iata_code": "FAI",
+        "name": "Fairbanks International Airport",
+        "lat": 64.81510162,
+        "long": -147.8560028
+    },
+    "65": {
+        "iata_code": "CMA",
+        "name": "Camarillo International Airport",
+        "lat": 34.213699,
+        "long": -119.094002
+    },
+    "66": {
+        "iata_code": "ADW",
+        "name": "Joint Base Andrews",
+        "lat": 38.810799,
+        "long": -76.866997
+    }
+}
