@@ -1,0 +1,9 @@
+let datap3 = [{"State":"RI","Count":1},
+{"State":"CT","Count":1},
+{"State":"DC","Count":1},
+{"State":"VT","Count":1},{"State":"NH","Count":2},{"State":"NJ","Count":3},{"State":"SD","Count":3},{"State":"ME","Count":3},{"State":"WV","Count":3},{"State":"MD","Count":3},{"State":"NV","Count":3},{"State":"NM","Count":4},{"State":"IN","Count":4},{"State":"KY","Count":4},{"State":"OK","Count":4},{"State":"AR","Count":4},{"State":"TN","Count":5},{"State":"OR","Count":5},{"State":"MA","Count":5},{"State":"AL","Count":5},{"State":"NE","Count":5},{"State":"MO","Count":5},{"State":"MS","Count":5},{"State":"HI","Count":5},{"State":"IA","Count":6},{"State":"UT","Count":6},{"State":"AZ","Count":6},{"State":"ID","Count":6},{"State":"OH","Count":6},{"State":"SC","Count":6},{"State":"VA","Count":7},{"State":"LA","Count":7},{"State":"KS","Count":7},{"State":"GA","Count":7},{"State":"WI","Count":7},{"State":"MT","Count":8},{"State":"MN","Count":8},{"State":"ND","Count":8},{"State":"PA","Count":9},{"State":"WA","Count":9},{"State":"WY","Count":9},{"State":"NC","Count":10},{"State":"IL","Count":10},{"State":"CO","Count":10},{"State":"MI","Count":14},
+{"State":"NY","Count":15},{"State":"AK","Count":19},{"State":"FL","Count":19},{"State":"CA","Count":22},{"State":"TX","Count":26}]
+
+let flightsdata = [{"Airline Name":"Hawaiian Airlines","num_delayed_flights":16241},
+{"Airline Name":"Allegiant Air","num_delayed_flights":27212},
+{"Airline Name":"Frontier Airlines","num_delayed_flights":50919},{"Airline Name":"Alaska Airlines","num_delayed_flights":61758},{"Airline Name":"Spirit Airlines","num_delayed_flights":71243},{"Airline Name":"JetBlue","num_delayed_flights":76517},{"Airline Name":"Delta Airlines","num_delayed_flights":227265},{"Airline Name":"United Airlines","num_delayed_flights":235769},{"Airline Name":"American Airlines","num_delayed_flights":318199},{"Airline Name":"Southwest Airlines","num_delayed_flights":349518}]
