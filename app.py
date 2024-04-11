@@ -51,6 +51,7 @@ def welcome():
         f"/api/v1.0/airports<br/>"
         f"/api/v1.0/state_airports<br/>"
         f"/api/v1.0/delayed_flights_by_airline<br/>"
+        f"/api/v1.0/airline/<airline1>"
         )
 
 # this is for the leaflet map on the homepage
@@ -101,6 +102,35 @@ def state_airports():
     state_airports_json = state_airports_df.to_json(orient='records')
  
     return jsonify(state_airports_json)
+
+@app.route('/api/v1.0/airline/<airline1>')
+def flights_by_airline(airline1):
+    
+         # create a link from python to airport_db
+    session = Session(engine)
+    
+     # Query flights and join with airlines
+    query = session.query(flights.marketing_airline, flights.depart_15_min_delay, flights.cancelled, flights.dep_delay_minutes, airlines.iata_code, airlines.airline_name)\
+        .join(airlines, airlines.iata_code == flights.marketing_airline)\
+        .filter(airlines.airline_name == airline1)\
+        .all()
+
+    delayed = [
+        {
+        "marketing_airline": row.marketing_airline,
+        "delay": row.depart_15_min_delay,
+        "flights_cancelled": row.cancelled,
+        "depart_minutes": row.dep_delay_minutes,
+        "Airline_name": row.airline_name        
+        }
+        
+        for row in query
+    ]
+    
+    session.close()
+    
+    # what returns from the api call
+    return jsonify(delayed)
 
 @app.route("/api/v1.0/delayed_flights_by_airline")
 def delayed_flights():
