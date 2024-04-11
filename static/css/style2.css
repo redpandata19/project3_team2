@@ -12,7 +12,11 @@ body {
     /* background-size: cover; /* Cover the entire viewport */
     /* background-position: center; /* Center the image */
     /* background-repeat: no-repeat; /* Prevent the image from repeating */ 
-    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f5f5f5;
   }
   
   #infoclick {
@@ -27,20 +31,40 @@ body {
   }
 
 .chart_properties {
-  width: 80%;
-  margin:auto;
+  width: 75%;
+  margin:20px auto;
+  padding: auto;
+  min-height: 400px;
+}
 
+#cubeCanvas {
+  width: 100%;
+  color: whitesmoke;
+  margin:20px auto;
+  padding: auto;
+  min-height: 400px;
+}
+
+#cube-container canvas#cubeCanvas {
+  width: 100%;
+  margin: 0 auto;
+  padding:0;
+  background:whitesmoke;
 }
 
 #plot {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 #button {
-  height: 50px;
+  height: 150px;
   background-color: transparent;
-  border: none;
+  border: transparent;
   cursor: pointer;
   padding: 0;
-  border: transparent;
+}
+img { 
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: transparent
 }

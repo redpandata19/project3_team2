@@ -1,0 +1,19 @@
+<style>
+    body { 
+        margin: 0;
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        background-color: rgb(250, 247, 247); /* Set the base background color to white */
+    }
+    .banner {
+        width: 50%; /* Using percentage for responsive width */
+        background-color: #f0f0f0; /* Adjust background color as needed */
+        padding: 1rem; /* Using rem for padding */
+        margin: 1rem auto; /* Centering banner with auto margins and using rem */
+        border: 1px solid #ccc;
+        box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Using rem for shadow offsets */
+    }
+    #cube-container {
+        margin: 2rem auto; /* Center the cube container with responsive margin */
+    }
+</style>
