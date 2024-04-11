@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/userStyle.css">
+
+    <!-- source https://www.iconsdb.com/red-icons/airport-icon.html -->
+    <link rel="icon" href="static/Images/airport-16.ico" type="image/x-icon">
+
+        <!-- Include Plotly library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>SERP API Example</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a></li>
+            <a href="info.html">Dashboard</a></li>
+        </ul>
+      </nav>
+
+    <h1 id="TopofPage">Statistics by Airline</h1>
+    <label for="dropdown">Select an Airline:</label>
+    <select id="dropdown">
+        <option value="American Airlines">American Airlines</option>
+        <option value="United Airlines">United Airlines</option>
+        <option value="Delta Airlines">Delta Airlines</option>
+        <option value="JetBlue">Jet Blue</option>
+        <option value="Spirit Airlines">Spirit Airlines</option>
+        <option value="Alaska Airlines">Alaska Airlines</option>
+        <option value="Frontier Airlines">Frontier Airlines</option>
+        <option value="Allegiant Air">Allegiant Air</option>
+        <option value="Hawaiian Airlines">Hawaiin Airlines</option>
+    </select>
+
+    <div class="chart-container">
+        <div id="plot"></div>
+        <div id="plot2"></div>
+    </div>
+    
+    <h2>The average flight delay for 2023 was: <h2 id="delayMinutes">16.27 minutes</h2>
+
+    <script>
+
+// Define data for the Pie chart
+var data1 = [{
+    values: [20556,1726270], // Values for each segment of the Pie chart
+    labels: ['Cancelled', 'Completed'], // Labels for each segment
+    type: 'pie', // Specify the type of chart
+    showlegend:false
+}];
+
+// Define layout options for the Pie chart
+var layout = {
+    title: 'Cancelled Flights vs Completed Flights' // Title for the chart
+};
+
+// Render the Pie chart
+Plotly.newPlot('plot', data1, layout);
+
+var paragraph = document.getElementById("delayMinutes");
+
+
+// -------------------------------------------------------
+// Define data for the Pie chart
+var data2 = [{
+    values: [318199,1428627], // Values for each segment of the Pie chart
+    labels: ['Delayed', 'On-time'], // Labels for each segment
+    type: 'pie', // Specify the type of chart
+    showlegend:false
+}];
+
+// Define layout options for the Pie chart
+var layout = {
+    title: 'Delayed vs On-time Flights' // Title for the chart
+};
+
+// Render the Pie chart
+Plotly.newPlot('plot2', data2, layout);
+
+
+    </script>
+
+
+      <!-- d3 javaScript -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <script src="static/js/userScript.js"></script>
+
+</body>
+</html>
+
+
+

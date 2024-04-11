@@ -1,0 +1,14 @@
+.chart-container {
+    width:80%;
+    margin:auto;
+    display: flex; /* Use flexbox to arrange charts */
+}
+
+.chart {
+    flex: 1; /* Make each chart occupy equal space */
+    margin-right: 20px; /* Add some spacing between charts */
+}
+
+#TopofPage {
+    text-align: center;
+}
