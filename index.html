@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+     <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="" />
+
+  <!-- favicon: the graphic with the title tag -->
+  <!-- source https://www.iconsdb.com/red-icons/airport-icon.html -->
+  <link rel="icon" href="static/Images/airport-16.ico" type="image/x-icon">
+
+    <!-- base CSS -->
+  <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- this is the tab at the top of the page -->
+  <title>Popular flights</title>
+</head>
+<body>
+
+   <div class="container">
+    <p id="main" class="gradient-text">Welcome to Our Popular Airports Landing Page!</p>
+    <p>Please explore 65 of the largest airports across America</p>
+    <hr>
+    <p>When you are done exploring please click the airplane to go to the next page</p>
+
+
+    <!-- https://similarpng.com/aircraft-silhouette-isolated-on-transparent-background-png/ -->
+    <button type="button" onclick="myFunction()"><img src="static/Images/airplane.png" alt="Button Image"></button>
+   
+   </div>
+
+   <!-- holds our map -->
+  <div id="map"></div>
+
+  <!-- leaflet javascript -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+  <!-- d3 javaScript -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+  <script src="static\js\script.js"></script>
+</body>
+</html>
