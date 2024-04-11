@@ -3,7 +3,7 @@
         margin: 0;
         display: flex;
         flex-direction: column; /* Stack elements vertically */
-        background-color: white; /* Set the base background color to white */
+        background-color: rgb(250, 247, 247); /* Set the base background color to white */
     }
     .banner {
         width: 50%; /* Using percentage for responsive width */
@@ -15,10 +15,5 @@
     }
     #cube-container {
         margin: 2rem auto; /* Center the cube container with responsive margin */
-    }
-    canvas {
-        display: block; /* Ensure the canvas behaves like a block element */
-        width: 100%; /* Make canvas width responsive */
-        max-width: 600px; /* Optional: limit canvas size to not become too large */
     }
 </style>
