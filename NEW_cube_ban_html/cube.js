@@ -13,7 +13,7 @@ const scene = new THREE.Scene();
 
 // Set up camera
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 5;
+camera.position.set(0, 0, 10); // Move the camera back along the z-axis
 
 // Set up renderer
 const renderer = new THREE.WebGLRenderer();
@@ -29,6 +29,8 @@ const cubeMaterials = imagePaths.map(path => new THREE.MeshBasicMaterial({ map: 
 
 // Create cube mesh with materials
 const cube = new THREE.Mesh(cubeGeometry, cubeMaterials);
+// Set initial rotation of the cube to show parts of three sides
+cube.rotation.set(Math.PI / 4, Math.PI / 4, 0);
 scene.add(cube);
 
 // Add mouse interaction for rotating the cube
