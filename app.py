@@ -49,8 +49,9 @@ def welcome():
     return (
         f"Available Routes:<br/>"
         f"/api/v1.0/airports<br/>"
-        f"/api/v1.0/state_airports"
-        f"/api/v1.0/delayed_flights_by_airline"
+        f"/api/v1.0/state_airports<br/>"
+        f"/api/v1.0/delayed_flights_by_airline<br/>"
+        f"/api/v1.0/airline/<airline1>"
         )
 
 # this is for the leaflet map on the homepage
@@ -102,42 +103,67 @@ def state_airports():
  
     return jsonify(state_airports_json)
 
-@app.route("/api/v1.0/delayed_flights_by_airline")
-def delayed_flights():
+@app.route('/api/v1.0/airline/<airline1>')
+def flights_by_airline(airline1):
     
-    # create a link from python to airport_db
+         # create a link from python to airport_db
     session = Session(engine)
-    query = session.query(flights.marketing_airline, flights.depart_15_min_delay, airlines.iata_code, airlines.airline_name)\
+    
+     # Query flights and join with airlines
+    query = session.query(flights.marketing_airline, flights.depart_15_min_delay, flights.cancelled, flights.dep_delay_minutes, airlines.iata_code, airlines.airline_name)\
         .join(airlines, airlines.iata_code == flights.marketing_airline)\
-            .filter(flights.depart_15_min_delay == True)\
-                .all()
-                
-    # convert the query into a list of dictionaries
+        .filter(airlines.airline_name == airline1)\
+        .all()
+
     delayed = [
         {
         "marketing_airline": row.marketing_airline,
         "delay": row.depart_15_min_delay,
-        "Airline_code": row.iata_code,
+        "flights_cancelled": row.cancelled,
+        "depart_minutes": row.dep_delay_minutes,
         "Airline_name": row.airline_name        
         }
         
         for row in query
     ]
     
-    # convert the list of dictionaries into a pandas dataframe (easiest way to manipulate the data)
-    delayed_df = pd.DataFrame(delayed)
-
-    # get the total # of occurrences per airline
-    airline_counts = delayed_df['Airline_name'].value_counts()
-    
-    # convert the dataframe to json    
-    counted = airline_counts.reset_index().to_json(orient='records')
-    
     session.close()
     
     # what returns from the api call
-    return jsonify(counted)
+    return jsonify(delayed)
 
+@app.route("/api/v1.0/delayed_flights_by_airline")
+def delayed_flights():
+    session = Session(engine)
+    try:
+        # Using a single query to get all required data
+        query = session.query(
+            airlines.airline_name,
+            func.count().label('total_flights'),
+            func.sum(flights.depart_15_min_delay == True).label('delayed_flights')
+        ).join(
+            flights, airlines.iata_code == flights.marketing_airline
+        ).group_by(
+            airlines.airline_name
+        ).all()
+
+        # Construct the response data as a list of dictionaries
+        results = [
+            {
+                "Airline Name": row.airline_name,
+                "Total Flights": row.total_flights,
+                "Delayed Flights": row.delayed_flights,
+                "Delay Percentage": (row.delayed_flights / row.total_flights) * 100
+            }
+            for row in query
+        ]
+
+        # Using jsonify to return a JSON array
+        response = jsonify(results)
+    finally:
+        session.close()
+
+    return response
     
 if __name__ == '__main__':
     app.run(debug=True)

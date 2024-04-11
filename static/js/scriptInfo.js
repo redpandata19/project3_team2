@@ -49,8 +49,8 @@ function createAirlineDelaysChart(data) {
 
      // create the chart
     let trace2 = {
-        x: airline_delays.map(row => row["Airline_name"]),
-        y: airline_delays.map(row => row.count),
+        x: airline_delays.map(row => row["Airline Name"]),
+        y: airline_delays.map(row => row["Delay Percentage"]),
         type: "bar"
     };
     
@@ -59,7 +59,7 @@ function createAirlineDelaysChart(data) {
     
     // Apply features to the chart
     let layout2 = {
-        title: "Number of Delayed Flights in 2023 per Airline",
+        title: "Percentage Delayed Flights in 2023 per Airline",
         width: 1500,
             }
 
