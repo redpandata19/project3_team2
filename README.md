@@ -40,10 +40,10 @@ Be sure to be patient, some of the graphs take a minute to load or update <br>
 On the Stats page use the drop down menu in the top left corner to change the airline carrier and explore its statistics <br>
 
 ## File Structure
-Airport_Site <br>
-    app.py <br>
-    index.html <br>
-    info.html <br>
+Airport_Site 
+- app.py 
+- index.html <br>
+- info.html <br>
     static <br>
         css <br>
             style.css <br>
