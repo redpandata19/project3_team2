@@ -54,9 +54,9 @@ static <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - scriptinfo.js <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cube.js <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - userScript.js <br>
-&nbsp; &nbsp; - `Images` <br>
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airplane.png <br>
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport-16.ico <br>
+&nbsp;&nbsp; - `Images` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airplane.png <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport-16.ico <br>
             
 Cube_and_banners <br>
     js <br>
@@ -70,12 +70,12 @@ Cube_and_banners <br>
             ai-generated-8635794_1280.jpg <br>
             ai-generated-8131428_1280.png<br>
 Database <br>
-    images <br>
+&nbsp;&nbsp; - images <br>
         ERD_flight_data.png <br>
         pgadmin_erd.pgerd <br>
         successful_upload_of_other_4_tables.png <br>
         successful_upload_to_flights_table.png <br>
-    Resources <br>
+&nbsp;&nbsp; - Resources <br>
         BTS <br>
             BTS_Q1_2023.zip <br>
             BTS_Q2_2023.zip <br>
@@ -88,8 +88,8 @@ Database <br>
             flights.zip <br>
             states.csv <br>
         us-airports.csv <br>
-    Schema.sql <br>
-    Sources_Data_Cleanup_for_database.ipynb <br>
+&nbsp;&nbsp; - Schema.sql <br>
+&nbsp;&nbsp; - Sources_Data_Cleanup_for_database.ipynb <br>
 Images <br>
     airplane.png <br>
     airport-16.ico <br>
