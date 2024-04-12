@@ -58,9 +58,6 @@ static <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airplane.png <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport-16.ico <br>
             
-Cube_and_banners <br>
-    js <br>
-       
         
         images <br>
             plane-4245416_1280.jpg <br>
@@ -71,10 +68,8 @@ Cube_and_banners <br>
             ai-generated-8131428_1280.png<br>
 Database <br>
 &nbsp;&nbsp; - `images` <br>
-        ERD_flight_data.png <br>
-        pgadmin_erd.pgerd <br>
-        successful_upload_of_other_4_tables.png <br>
-        successful_upload_to_flights_table.png <br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ERD_flight_data.png <br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- pgadmin_erd.pgerd <br>
 &nbsp;&nbsp; - `Resources` <br>
         BTS <br>
             BTS_Q1_2023.zip <br>
