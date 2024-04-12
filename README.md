@@ -1,4 +1,4 @@
-# US AIR TRAVEL FOR THE FUN OF IT
+#  $\color{lightskyblue}{\textsf{US AIR TRAVEL FOR THE FUN OF IT}}$
 
 ### Description
 Our project looks at airports in the US and airline flight arrival information collected by the US Department of Transportation. Our website is helpful to prospective travelers who are intimidated by all the information overload on sites like Expedia or Kayak. As a seasoned traveler you get to know the airport locations, IATA codes as well as airline carriers, but to a novice this can all be very confusing. Reviewing the main map helps users understand if there are any airports in their area and look at where they can easily get to in the US. Using our airline carrier statistics, users can determine which airline carrier is going to be their new favorite!
