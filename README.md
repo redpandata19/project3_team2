@@ -51,7 +51,7 @@ static <br>
 &nbsp; &nbsp; - `js` <br>
             &nbsp; &nbsp;&nbsp;&nbsp; -script.js <br>
             &nbsp; &nbsp;&nbsp;&nbsp; -scriptinfo.js <br>
-Images <br>
+&nbsp; &nbsp; - `Images` <br>
 &nbsp; &nbsp; - airplane.png <br>
 &nbsp; &nbsp; - airport-16.ico <br>
             
