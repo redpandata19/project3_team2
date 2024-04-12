@@ -77,14 +77,15 @@ Database <br>
             BTS_Q3_2023.zip <br>
             BTS_Q4_2023.zip <br>
 &nbsp;&nbsp; - db_sources <br>
+&nbsp;&nbsp; - Schema.sql <br>
+&nbsp;&nbsp; - Sources_Data_Cleanup_for_database.ipynb <br>
             airlines.csv <br>
             airport_sizes.csv <br>
             airports.csv <br>
             flights.zip <br>
             states.csv <br>
         us-airports.csv <br>
-&nbsp;&nbsp; - Schema.sql <br>
-&nbsp;&nbsp; - Sources_Data_Cleanup_for_database.ipynb <br>
+
 Images <br>
     airplane.png <br>
     airport-16.ico <br>
