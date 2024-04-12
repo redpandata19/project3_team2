@@ -44,7 +44,7 @@ Airport_Site
 - app.py 
 - index.html <br>
 - info.html <br>
-- static 
+- static <br>
 --  css <br>
             style.css <br>
             style2.css <br>
