@@ -46,8 +46,8 @@ index.html <br>
 info.html <br>
 static <br>
 &nbsp; &nbsp; - css <br>
-            style.css <br>
-            style2.css <br>
+            &nbsp; &nbsp;&nbsp; - style.css <br>
+            &nbsp; &nbsp;&nbsp; - style2.css <br>
         data <br>
             large_airport_data.json <br>
         images <br>
