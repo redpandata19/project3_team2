@@ -83,12 +83,7 @@ Database <br>
 
 
 ## Dependencies
-Python 3.x https://docs.python.org/3/<br>
-Pandas https://pandas.pydata.org/docs/reference/general_functions.html<br>
-SQLAlchemy https://docs.sqlalchemy.org/en/20/<br>
-Flask https://flask.palletsprojects.com/en/3.0.x/<br>
-pgAdmin4 (DataBase) https://www.pgadmin.org/docs/<br>
-CORS https://flask-cors.readthedocs.io/en/latest/<br>
+`Python 3.x`, `Pandas`, `SQLAlchemy`, `Flask`, `pgAdmin4`, `CORS`
 
 ## Tools Used
 JupyterNotebook https://jupyter.org/<br>
