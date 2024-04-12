@@ -41,11 +41,11 @@ On the Stats page use the drop down menu in the top left corner to change the ai
 
 ## File Structure
 Airport_Site 
-- app.py 
-- index.html <br>
-- info.html <br>
-- static <br>
---  css <br>
+app.py 
+index.html <br>
+info.html <br>
+static <br>
+&nbsp; css <br>
             style.css <br>
             style2.css <br>
         data <br>
