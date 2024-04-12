@@ -48,13 +48,14 @@ static <br>
 &nbsp; &nbsp; - css <br>
             &nbsp; &nbsp;&nbsp;&nbsp; - style.css <br>
             &nbsp; &nbsp;&nbsp;&nbsp; - style2.css <br>
+&nbsp; &nbsp; - js <br>
+            &nbsp; &nbsp;&nbsp;&nbsp; -script.js <br>
+            &nbsp; &nbsp;&nbsp;&nbsp; -scriptinfo.js <br>
 Images <br>
 &nbsp; &nbsp; - airplane.png <br>
 &nbsp; &nbsp; - airport-16.ico <br>
             
-        js <br>
-            script.js <br>
-            scriptinfo.js <br>
+        
 app.py <br>
 Cube_and_banners <br>
     js <br>
