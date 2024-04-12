@@ -49,18 +49,18 @@ static <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - style.css <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - style2.css <br>
 &nbsp; &nbsp; - `js` <br>
-            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -script.js <br>
-            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -scriptinfo.js <br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - script.js <br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - scriptinfo.js <br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cube.js <br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - userScript.js <br>
 &nbsp; &nbsp; - `Images` <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airplane.png <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport-16.ico <br>
             
-        
-app.py <br>
 Cube_and_banners <br>
     js <br>
-        arrow_banners.js <br>
-        cube.js <br>
+       
+        
         images <br>
             plane-4245416_1280.jpg <br>
             plane-513641_1280.jpg <br>
