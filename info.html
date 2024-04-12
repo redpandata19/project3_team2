@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/style2.css">
+
+    <!-- Include Plotly library -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- favicon: the graphic with the title tag -->
+    <!-- source https://www.iconsdb.com/red-icons/airport-icon.html -->
     <link rel="icon" href="static/Images/airport-16.ico" type="image/x-icon">
     <title>Dashboard</title>
 </head>
@@ -12,12 +17,12 @@
 <body>
   <nav>
     <ul>
+        <!-- Navigation bar -->
         <a href="index.html">Home</a></li>
         <a href="user.html">Stats Page</a></li>
     </ul>
   </nav>
 
-  <button type="button" onclick="myFunction()"><img src="static/Images/airplane.png" id="button" alt="Button Image"></button>
 
   <div class="title">
     <h1 class="new">Airport Dashboard</h1>
@@ -35,9 +40,13 @@
   <div class="chart_properties" id="plot2"></div>
 </body>
    
+  <!-- d3 javaScript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- cube display -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
+  <!-- local scripts -->
   <script src="static/js/scriptInfo.js"></script>
   <script src="static/js/cube.js"></script>
   <script src="static/js/banners_for_airports.js"></script>

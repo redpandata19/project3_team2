@@ -18,7 +18,7 @@ Airport_Site
         images 
             airplane.png 
             airport-16.ico 
-            purplesky.webp 
+             
         js 
             script.js 
             scriptinfo.js 
@@ -58,7 +58,7 @@ Database
 Images 
     airplane.png 
     airport-16.ico 
-    purplesky.webp 
+    
 index.html 
 info.html 
 js_visualizations 
@@ -130,7 +130,7 @@ Psycopg2 https://www.psycopg.org/docs/<br>
 Pathlib https://docs.python.org/3/library/pathlib.html<br>
 D3.js https://devdocs.io/d3~7/<br>
 
-## Creaters
+## Creators
 redpandata19 (Elaine McCall)<br>
 Latashajd40 (Latasha J)<br>
 rachelnteran (Rachel Teran)<br>

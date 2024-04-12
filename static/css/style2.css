@@ -1,9 +1,20 @@
-.title {
-  margin: auto;
-  width: 96%;
+button {
+  border:none;
+}
+#btn {
+  width: 50px;
+  height: 80%;
+  
 }
 
-h1 {
+.title {
+ 
+  width: 80vw;
+  max-width: 1500px;
+  margin:auto;
+}
+
+.title h1 {
   text-align: center;
 }
 
@@ -19,23 +30,17 @@ body {
     background-color: #f5f5f5;
   }
   
-  #infoclick {
-    background-color: transparent;
+  .new {
+    color:darkblue;
+    font-size: 50px;
   }
 
-  .gradient-text {
-    font-size: 48px;
-    background-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff); /* Gradient colors */
-    -webkit-background-clip: text; /* Apply the gradient to the text */
-    -webkit-text-fill-color: transparent; /* Set text color to transparent to show the gradient */
+  .chart_properties {
+    width: 80vw;
+    max-width:1500px;
+    margin:auto;
+  
   }
-
-.chart_properties {
-  width: 75%;
-  margin:20px auto;
-  padding: auto;
-  min-height: 400px;
-}
 
 #cubeCanvas {
   width: 100%;
@@ -53,7 +58,7 @@ body {
 }
 
 #plot {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 #button {

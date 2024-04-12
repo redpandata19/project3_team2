@@ -3,9 +3,7 @@ function getAirlineStats(data) {
   
 
    let total_flights = data.length
-    // let cancelled_flights = countCancelledFlights(data);
-    // let delay = get_departure_delay(data);
-    let delay_minutes = avg_delay_minutes(data);
+   let delay_minutes = avg_delay_minutes(data);
     
     createPie1(data, total_flights, delay_minutes);
     createPie2(data,total_flights);
@@ -13,13 +11,10 @@ function getAirlineStats(data) {
 
 function createPie1(data, total_flights, delay_minutes) {
 
-
+    // used in the pie chart
     let cancelled_flights = countCancelledFlights(data);
     let non_cancelled = total_flights - cancelled_flights
     
-    console.log(cancelled_flights)
-    console.log(non_cancelled)
-
      // Define data for the Pie chart
      var data1 = [{
         values: [cancelled_flights, non_cancelled], // Values for each segment of the Pie chart
@@ -35,6 +30,7 @@ function createPie1(data, total_flights, delay_minutes) {
     // Render the Pie chart
     Plotly.newPlot('plot', data1, layout);
 
+    // changes the html text
     var paragraph = document.getElementById("delayMinutes");
 
     // Change the text using textContent property
@@ -44,13 +40,9 @@ function createPie1(data, total_flights, delay_minutes) {
 
 function createPie2(data, total_flights) {
 
-    
 
     let delay = get_departure_delay(data);
     let non_delayed = total_flights - delay
-
-    console.log(delay);
-    console.log(non_delayed);
 
      // Define data for the Pie chart
      var data1 = [{
@@ -118,9 +110,7 @@ dropdown.addEventListener("change", function() {
         getAirlineStats(data);
 
     });
-
-
-   
+ 
 });
 
 

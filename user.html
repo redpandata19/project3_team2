@@ -15,11 +15,13 @@
 <body>
     <nav>
         <ul>
+            <!-- Navigation bar -->
             <a href="index.html">Home</a></li>
             <a href="info.html">Dashboard</a></li>
         </ul>
       </nav>
 
+      <!-- dropdown -->
     <h1 id="TopofPage">Statistics by Airline</h1>
     <label for="dropdown">Select an Airline:</label>
     <select id="dropdown">
@@ -34,6 +36,7 @@
         <option value="Hawaiian Airlines">Hawaiin Airlines</option>
     </select>
 
+    <!-- pie charts -->
     <div class="chart-container">
         <div id="plot"></div>
         <div id="plot2"></div>
@@ -59,10 +62,10 @@ var layout = {
 // Render the Pie chart
 Plotly.newPlot('plot', data1, layout);
 
+// changed by javascript when new dropdown is selected
 var paragraph = document.getElementById("delayMinutes");
 
 
-// -------------------------------------------------------
 // Define data for the Pie chart
 var data2 = [{
     values: [318199,1428627], // Values for each segment of the Pie chart
@@ -79,13 +82,13 @@ var layout = {
 // Render the Pie chart
 Plotly.newPlot('plot2', data2, layout);
 
-
-    </script>
+</script>
 
 
       <!-- d3 javaScript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
     
+     <!-- local javascript used for changing dropdown -->
     <script src="static/js/userScript.js"></script>
 
 </body>
