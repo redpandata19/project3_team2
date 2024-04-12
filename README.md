@@ -48,12 +48,10 @@ static <br>
 &nbsp; &nbsp; - css <br>
             &nbsp; &nbsp;&nbsp;&nbsp; - style.css <br>
             &nbsp; &nbsp;&nbsp;&nbsp; - style2.css <br>
-        data <br>
-            large_airport_data.json <br>
-        images <br>
+            images <br>
             airplane.png <br>
             airport-16.ico <br>
-            purplesky.webp <br>
+            
         js <br>
             script.js <br>
             scriptinfo.js <br>
