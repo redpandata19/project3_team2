@@ -57,15 +57,7 @@ static <br>
 &nbsp;&nbsp; - `Images` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airplane.png <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport-16.ico <br>
-            
-        
-        images <br>
-            plane-4245416_1280.jpg <br>
-            plane-513641_1280.jpg <br>
-            airplane-6867678_1280.jpg <br>
-            airplane-1807486_1280.jpg <br>
-            ai-generated-8635794_1280.jpg <br>
-            ai-generated-8131428_1280.png<br>
+
 Database <br>
 &nbsp;&nbsp; - Schema.sql <br>
 &nbsp;&nbsp; - Sources_Data_Cleanup_for_database.ipynb <br>
