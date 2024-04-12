@@ -48,7 +48,7 @@ static <br>
 &nbsp; &nbsp; - css <br>
             &nbsp; &nbsp;&nbsp;&nbsp; - style.css <br>
             &nbsp; &nbsp;&nbsp;&nbsp; - style2.css <br>
-            images <br>
+Images <br>
             airplane.png <br>
             airport-16.ico <br>
             
