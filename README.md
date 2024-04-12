@@ -73,6 +73,7 @@ Database <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ERD_flight_data.png <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- pgadmin_erd.pgerd <br>
 &nbsp;&nbsp; - `Resources` <br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - us-airports.csv <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - BTS <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - BTS_Q1_2023.zip <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - BTS_Q2_2023.zip <br>
@@ -85,7 +86,7 @@ Database <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - flights.zip <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - states.csv <br>
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - us-airports.csv <br>
+
 
 
             
