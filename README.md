@@ -71,12 +71,12 @@ Database <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ERD_flight_data.png <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- pgadmin_erd.pgerd <br>
 &nbsp;&nbsp; - `Resources` <br>
-        BTS <br>
+&nbsp;&nbsp; - BTS <br>
             BTS_Q1_2023.zip <br>
             BTS_Q2_2023.zip <br>
             BTS_Q3_2023.zip <br>
             BTS_Q4_2023.zip <br>
-        db_sources <br>
+&nbsp;&nbsp; - db_sources <br>
             airlines.csv <br>
             airport_sizes.csv <br>
             airports.csv <br>
