@@ -84,63 +84,11 @@ Database <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport_sizes.csv <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airports.csv <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - flights.zip <br>
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - states.csv <br>
-
-
-
-
-            
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - states.csv <br>    
             
         
 
-Images <br>
-    airplane.png <br>
-    airport-16.ico <br>
-    
-index.html <br>
-info.html <br>
-js_visualizations <br>
-    app.py <br>
-    Connect_to_database-RTcopy.ipynb <br>
-    datap3.js <br>
-    demop3.js <br>
-    indexp3.html <br>
-    plotp3.js <br>
-README.md <br>
-sql_query_visuals_branch <br>
-    app.py <br>
-    images <br>
-        airports_by_state.png<br>
-    index.html <br>
-    large_airport_data.json <br>
-    sorted_state_aiports.json <br>
-    sql_query_visuals.ipynb <br>
-    static <br>
-        css <br>
-            style.css <br>
-            style2.css <br>
-        js <br>
-            script.js <br>
-            scriptInfo.js <br>
-static <br>
-    css <br>
-        style.css <br>
-        style2.css <br>
-        style3.css <br>
-        style4.css <br>
-    data <br>
-        large_aiport_data.json <br>
-    Images <br>
-        airplane.png <br>
-        airport-16.ico <br>
-        purplesky.webp <br>
-    js <br>
-        banners_for_airports.js <br>
-        cube.js <br>
-        cube.js_old <br>
-        load_sequence <br>
-        script.js <br>
-        scriptInfo.js <br>
+
 
 ## Dependencies
 Python 3.x https://docs.python.org/3/<br>
