@@ -67,6 +67,8 @@ static <br>
             ai-generated-8635794_1280.jpg <br>
             ai-generated-8131428_1280.png<br>
 Database <br>
+&nbsp;&nbsp; - Schema.sql <br>
+&nbsp;&nbsp; - Sources_Data_Cleanup_for_database.ipynb <br>
 &nbsp;&nbsp; - `images` <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ERD_flight_data.png <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- pgadmin_erd.pgerd <br>
@@ -77,8 +79,7 @@ Database <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - BTS_Q3_2023.zip <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - BTS_Q4_2023.zip <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - db_sources <br>
-&nbsp;&nbsp; - Schema.sql <br>
-&nbsp;&nbsp; - Sources_Data_Cleanup_for_database.ipynb <br>
+
             airlines.csv <br>
             airport_sizes.csv <br>
             airports.csv <br>
