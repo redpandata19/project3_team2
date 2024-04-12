@@ -91,7 +91,7 @@ Database <br>
 Images <br>
     airplane.png <br>
     airport-16.ico <br>
-    purplesky.webp <br>
+    
 index.html <br>
 info.html <br>
 js_visualizations <br>
