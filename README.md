@@ -52,8 +52,8 @@ static <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -script.js <br>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -scriptinfo.js <br>
 &nbsp; &nbsp; - `Images` <br>
-&nbsp; &nbsp; - airplane.png <br>
-&nbsp; &nbsp; - airport-16.ico <br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airplane.png <br>
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - airport-16.ico <br>
             
         
 app.py <br>
